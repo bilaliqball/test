@@ -38,7 +38,7 @@ public class TestController {
     @GetMapping("/welcome")
     public String welcome() {
     
-        return "home";
+        return "welcome";
     }
 
     @GetMapping("/appname")
